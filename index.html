@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Cabaña de Tarzán - Tu refugio natural en Arucas, Gran Canaria. Alojamiento único rodeado de naturaleza.">
+    <meta name="theme-color" content="#2e4f24">
+    <title>Cabaña de Tarzán - Arucas, Gran Canaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilo.css">
+</head>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#inicio" class="logo" data-en="Tarzan's Cabin" data-es="Cabaña de Tarzán"
+                data-fr="Cabane de Tarzan">Cabaña de Tarzán</a>
+            <ul class="nav-links">
+                <li><a href="#inicio" data-es="Inicio" data-en="Home" data-fr="Accueil">Inicio</a></li>
+                <li><a href="#sobrenosotros" data-es="Sobre Nosotros" data-en="About Us" data-fr="À Propos">Sobre
+                        Nosotros</a></li>
+                <li><a href="#galeria" data-es="Galería" data-en="Gallery" data-fr="Galerie">Galería</a></li>
+                <li><a href="#servicios" data-es="Servicios" data-en="Services" data-fr="Services">Servicios</a></li>
+                <li><a href="#reserva" data-es="Reserva" data-en="Book Now" data-fr="Réserver">Reserva</a></li>
+
+            </ul>
+            <div class="selector-idioma">
+                <div class="icono-idioma" onclick="toggleIdiomas()">
+                    🌐
+                </div>
+
+                <div class="lista-idiomas oculto" id="listaIdiomas">
+                    <button onclick="cambiarIdioma('es')">es Español</button>
+                    <button onclick="cambiarIdioma('en')">en Inglés</button>
+                    <button onclick="cambiarIdioma('fr')">fr Francés</button>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 data-es="Bienvenidos a Cabaña de Tarzán" data-en="Welcome to Tarzan's Cabin"
+                    data-fr="Bienvenue à la Cabane de Tarzan">
+                    Bienvenidos a Cabaña de Tarzán
+                </h1>
+                <p data-es="Tu refugio natural en el corazón de Arucas, Gran Canaria
+            " data-en="Your natural retreat in the heart of Arucas, Gran Canaria"
+                    data-fr="Votre refuge naturel au cœur d'Arucas, Grande Canarie">
+                    Tu refugio natural en el corazón de Arucas, Gran Canaria
+                </p>
+                <p data-en="Arucas is one of the jewels of northern Gran Canaria: a town steeped in history, tradition and natural beauty. Its imposing Church of San Juan Bautista, carved from Arucas stone, dominates the historic centre and is one of the most photographed monuments on the island. Strolling through its streets is to discover traditional architecture, lively squares and corners with authentic flavour.
+The municipality also offers nature in its purest form: the Arucas Volcano, its viewpoints and its routes among banana plantations allow you to enjoy spectacular landscapes. It is also the birthplace of the famous Arehucas Rum, whose distillery can be visited to learn about its history and taste its products.
+Arucas combines culture, local cuisine, landscape and Canarian tradition, making it the perfect destination for those seeking an authentic experience in Gran Canaria.
+" data-es="Arucas es una de las joyas del norte de Gran Canaria: una ciudad llena de historia, tradición y belleza natural. Su imponente Iglesia de San Juan Bautista, tallada en piedra de Arucas, domina el casco histórico y es uno de los monumentos más fotografiados de la isla. Pasear por sus calles es descubrir arquitectura tradicional, plazas llenas de vida y rincones con sabor auténtico.
+El municipio también ofrece naturaleza en estado puro: el Volcán de Arucas, sus miradores y sus rutas entre plataneras permiten disfrutar de paisajes espectaculares. Además, es cuna del famoso Ron Arehucas, cuya destilería se puede visitar para conocer su historia y degustar sus productos.
+Arucas combina cultura, gastronomía local, paisaje y tradición canaria, convirtiéndolo en un destino perfecto para quienes buscan una experiencia auténtica en Gran Canaria.
+" data-fr="Arucas est l'un des joyaux du nord de Grande Canarie : une ville riche en histoire, en traditions et en beauté naturelle. Son imposante église San Juan Bautista, sculptée dans la pierre d'Arucas, domine le centre historique et est l'un des monuments les plus photographiés de l'île. Se promener dans ses rues, c'est découvrir une architecture traditionnelle, des places pleines de vie et des coins authentiques.
+La commune offre également une nature à l'état pur : le volcan d'Arucas, ses belvédères et ses sentiers entre les plantations de bananes permettent de profiter de paysages spectaculaires. C'est également le berceau du célèbre rhum Arehucas, dont la distillerie peut être visitée pour découvrir son histoire et déguster ses produits.
+Arucas allie culture, gastronomie locale, paysages et traditions canariennes, ce qui en fait une destination parfaite pour ceux qui recherchent une expérience authentique à Grande Canarie.
+">Arucas es una de las joyas del norte de Gran Canaria: una ciudad llena de historia, tradición y belleza natural. Su
+                    imponente Iglesia de San Juan Bautista, tallada en piedra de Arucas, domina el casco histórico y es
+                    uno
+                    de los monumentos más fotografiados de la isla. Pasear por sus calles es descubrir arquitectura
+                    tradicional, plazas llenas de vida y rincones con sabor auténtico.
+                    El municipio también ofrece naturaleza en estado puro: el Volcán de Arucas, sus miradores y sus
+                    rutas
+                    entre plataneras permiten disfrutar de paisajes espectaculares. Además, es cuna del famoso Ron
+                    Arehucas,
+                    cuya destilería se puede visitar para conocer su historia y degustar sus productos.
+                    Arucas combina cultura, gastronomía local, paisaje y tradición canaria, convirtiéndolo en un destino
+                    perfecto para quienes buscan una experiencia auténtica en Gran Canaria.
+
+
+                </p>
+                <a href="#reserva" class="btn" data-es="Reserva Ahora" data-en="Book Now"
+                    data-fr="Réserver Maintenant">Reserva Ahora</a>
+            </div>
+        </section>
+
+
+        <section id="sobrenosotros">
+            <h2 data-es="Sobre Nosotros" data-en="About Us" data-fr="À Propos de Nous">Sobre Nosotros</h2>
+            <div class="sobre-content">
+                <p data-es="Nos apasionan los viajes y las experiencias auténticas. Nos encanta conocer personas de diferentes
+                    lugares.
+                    Hablamos varios idiomas, lo que nos permite comunicarnos fácilmente con huéspedes internacionales y
+                    hacer que cada visita sea cercana y agradable.
+                    Nuestro objetivo es que te sientas bienvenido desde el primer momento, ofreciéndote un trato cálido,
+                    respetuoso y atento. Queremos que disfrutes de la cabaña y del entorno tanto como lo hacemos
+                    nosotros,
+                    creando recuerdos únicos en un ambiente sencillo y natural." data-en="We are passionate about travel and authentic experiences. We love meeting people from different places. 
+We speak several languages, which allows us to communicate easily with international guests and make each visit friendly and enjoyable.
+Our goal is to make you feel welcome from the moment you arrive, offering you a warm, respectful and attentive service. We want you to enjoy the cottage and its surroundings as much as we do, creating unique memories in a simple and natural environment.
+" data-fr="Nous sommes passionnés par les voyages et les expériences authentiques. Nous aimons rencontrer des personnes de différents horizons. 
+Nous parlons plusieurs langues, ce qui nous permet de communiquer facilement avec nos hôtes internationaux et de rendre chaque visite agréable et chaleureuse.
+Notre objectif est que vous vous sentiez bien dès votre arrivée, en vous offrant un accueil chaleureux, respectueux et attentionné. Laissez-vous charmer par la cabane et son environnement, et créez des souvenirs uniques dans une ambiance simple et naturelle.
+">
+                    Nos apasionan los viajes y las experiencias auténticas. Nos encanta conocer personas de diferentes
+                    lugares.
+                    Hablamos varios idiomas, lo que nos permite comunicarnos fácilmente con huéspedes internacionales y
+                    hacer que cada visita sea cercana y agradable.
+                    Nuestro objetivo es que te sientas bienvenido desde el primer momento, ofreciéndote un trato cálido,
+                    respetuoso y atento. Queremos que disfrutes de la cabaña y del entorno tanto como lo hacemos
+                    nosotros,
+                    creando recuerdos únicos en un ambiente sencillo y natural.
+
+                </p>
+            </div>
+        </section>
+
+
+        <section id="galeria">
+            <h2 data-es="Galería" data-en="Gallery" data-fr="Galerie">Galería</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="imagines/342ed4aa-fb97-4009-819b-fcae38d0c4e6.avif" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="imagines/1.avif" alt="" >
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/2.avif" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/4.avif" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/6.avif" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="imagines/5.avif" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="imagines/7.avif" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/9eac879a-432f-4286-92bf-d6241b1e5c35.avif" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/10.avif" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/8.avif" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagines/82203bee-1e9c-439b-b032-ddcbce69b5dd.webp" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="imagines/9.avif" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2 data-es="Servicios y Tarifas" data-en="Services & Rates" data-fr="Services et Tarifs">Servicios y
+                Tarifas
+            </h2>
+            <div class="servicios-container">
+                <div class="servicio-card">
+                    <h3 data-es="Alojamiento" data-en="Accommodation" data-fr="Hébergement">Alojamiento</h3>
+                    <div class="precio">50€<span style="font-size: 1rem;" data-es="/noche" data-en="/night"
+                            data-fr="/nuit">/noche</span></div>
+                    <ul>
+                        <li data-es="Capacidad máxima: 2 personas" data-en="Maximum capacity: 2 people"
+                            data-fr="Capacité maximale: 2 personnes">Capacidad máxima: 2 personas</li>
+                        <li data-es="Cocina equipada" data-en="Equipped kitchen" data-fr="Cuisine équipée">Cocina
+                            equipada
+                        </li>
+                        <li data-es="Baño privado" data-en="Private bathroom" data-fr="Salle de bain privée">Baño
+                            privado
+                        </li>
+                        <li data-es="Ropa de cama incluida" data-en="Bed linen included" data-fr="Linge de lit inclus">
+                            Ropa
+                            de cama incluida</li>
+                        <li data-es="WiFi gratuito" data-en="Free WiFi" data-fr="WiFi gratuit">WiFi gratuito</li>
+                    </ul>
+                </div>
+
+                <div class="servicio-card">
+                    <h3 data-es="Horarios" data-en="Schedule" data-fr="Horaires">Horarios</h3>
+                    <ul>
+                        <li data-es="Check-in: 15:00 - 20:00" data-en="Check-in: 3:00 PM - 8:00 PM"
+                            data-fr="Arrivée: 15h00 - 20h00">Check-in: 15:00 - 20:00</li>
+                        <li data-es="Check-out: hasta las 11:00" data-en="Check-out: until 11:00 AM"
+                            data-fr="Départ: jusqu'à 11h00">Check-out: hasta las 11:00</li>
+                        <li data-es="Estancia mínima: 3 noches" data-en="Minimum stay: 3 nights"
+                            data-fr="Séjour minimum: 3 nuits">Estancia mínima: 3 noches</li>
+                    </ul>
+                </div>
+
+                <div class="servicio-card">
+                    <h3 data-es="Incluido" data-en="Included" data-fr="Inclus">Incluido</h3>
+                    <ul>
+                        <li data-es="Aparcamiento gratuito" data-en="Free parking" data-fr="Parking gratuit">
+                            Aparcamiento
+                            gratuito</li>
+                        <li data-es="Zona de jardín privado" data-en="Private garden area" data-fr="Jardin privé">Zona
+                            de
+                            jardín privado</li>
+                        <li data-es="Utensilios de cocina" data-en="Kitchen utensils" data-fr="Ustensiles de cuisine">
+                            Utensilios de cocina</li>
+                        <li data-es="Agua caliente 24h" data-en="24h hot water" data-fr="Eau chaude 24h">Agua caliente
+                            24h
+                        </li>
+                        <li data-es="Electricidad incluida" data-en="Electricity included"
+                            data-fr="Électricité incluse">
+                            Electricidad incluida</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="reserva">
+            <h2 data-es="Haz tu Reserva" data-en="Make Your Reservation" data-fr="Faites Votre Réservation">Haz tu
+                Reserva
+            </h2>
+            <form id="formReserva" action="https://formspree.io/f/xjkjgnzp" method="post" name="cabaña de tárzan"
+                class="formulario-reserva">
+                <label data-en="Full name:" data-fr="Nom complet:" data-es="Nombre completo:">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label data-en="Email:" data-fr="Courriel:" data-es="Correo electrónico">Correo electrónico:</label>
+                <input type="email" id="correo" name="email" placeholder="Correo@ejemplo.com" required>
+
+                <label data-en="Phone:" data-fr="Téléphone :" data-es="Teléfono:">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000" required>
+
+                <label data-en="Arrival date:" data-fr="Date d'arrivée :" data-es="Fecha de llegada:">Fecha de
+                    llegada:</label>
+                <input type="date" id="entrada" name="date" required>
+
+                <label data-en="Departure date:" data-fr="Date de départ :" data-es="Fecha de salida:">Fecha de
+                    salida:</label>
+                <input type="date" id="salida" name="date" required>
+
+                <label data-en="Number of people:" data-fr="Nombre de personnes :" data-es="Número de personas:">Número
+                    de personas:</label>
+                <select id="personas" required>
+                    <option value="" data-en="Select" data-fr="Sélectionner" data-es="Selecciona">Selecciona</option>
+                    <option value="1" data-en="1 person" data-fr="1 personne" data-es="1 persona">1 persona</option>
+                    <option value="" data-en="2 person" data-fr="2 personne" data-es="2 personas">2 personas</option>
+                </select>
+                <div id="resultado-precio" class="resultado-precio">
+                    <p><strong>Total estimado:</strong> <span id="precioTotal">50 €</span></p>
+                </div>
+
+                <button type="submit">Confirmar Reserva</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p data-es="© 2024 Cabaña de Tarzán - Arucas, Gran Canaria. Todos los derechos reservados."
+            data-en="© 2024 Tarzan's Cabin - Arucas, Gran Canaria. All rights reserved."
+            data-fr="© 2024 Cabane de Tarzan - Arucas, Grande Canarie. Tous droits réservés.">
+            © 2024 Cabaña de Tarzán - Arucas, Gran Canaria. Todos los derechos reservados.
+        </p>
+        <p data-es="Ubicación: Valle Verde, Arucas | 628 59 22 78| info@elrefugionatural.com"
+            data-en="Location: Valle Verde, Arucas | 628 59 22 78 | info@elrefugionatural.com"
+            data-fr="Emplacement : Valle Verde, Arucas | 628 59 22 78 | info@elrefugionatural.com">
+            Ubicación: Valle Verde, Arucas | 628 59 22 78| info@elrefugionatural.com</p>
+    </footer>
+    <script>
+        
+        // Toggle selector de idiomas
+        function toggleIdiomas() {
+            document.getElementById("listaIdiomas").classList.toggle("oculto");
+        }
+
+        // Cambiar idioma
+        function cambiarIdioma(idioma) {
+            localStorage.setItem("idiomaSeleccionado", idioma);
+            aplicarIdioma(idioma);
+            toggleIdiomas();
+        }
+
+        // Aplicar idioma a todos los elementos
+        function aplicarIdioma(idioma) {
+            document.querySelectorAll("[data-es], [data-en], [data-fr]").forEach(el => {
+                const texto = el.getAttribute(`data-${idioma}`);
+                if (texto) {
+                    el.textContent = texto;
+                }
+            });
+        }
+
+        // Inicializar idioma al cargar
+        (function () {
+            let idioma = localStorage.getItem("idiomaSeleccionado");
+
+            if (!idioma) {
+                const nav = navigator.language || navigator.userLanguage;
+                if (nav.startsWith("es")) idioma = "es";
+                else if (nav.startsWith("fr")) idioma = "fr";
+                else idioma = "en";
+            }
+
+            aplicarIdioma(idioma);
+        })();
+
+        // Calcular precio total
+        const entrada = document.getElementById('entrada');
+        const salida = document.getElementById('salida');
+        const precioTotal = document.getElementById('precioTotal');
+
+        function calcularPrecio() {
+            if (entrada.value && salida.value) {
+                const fechaEntrada = new Date(entrada.value);
+                const fechaSalida = new Date(salida.value);
+                const diferencia = (fechaSalida - fechaEntrada) / (1000 * 60 * 60 * 24);
+                
+                if (diferencia > 0) {
+                    const total = diferencia * 50;
+                    precioTotal.textContent = `${total} €`;
+                } else {
+                    precioTotal.textContent = '50 €';
+                }
+            }
+        }
+
+        entrada.addEventListener('change', calcularPrecio);
+        salida.addEventListener('change', calcularPrecio);
+
+        // Cerrar selector de idiomas al hacer clic fuera
+        document.addEventListener('click', function(event) {
+            const selector = document.querySelector('.selector-idioma');
+            if (!selector.contains(event.target)) {
+                document.getElementById("listaIdiomas").classList.add("oculto");
+            }
+        });
+
+        // Lazy loading de imágenes
+        if ('loading' in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.src = img.src;
+            });
+        } else {
+            // Fallback para navegadores antiguos
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+            document.body.appendChild(script);
+        }
+    </script>
+    </script>
+
+</body>
+
+</html>
